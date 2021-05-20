@@ -31,4 +31,21 @@ def subtract(value1, value2):
 print(subtract(9, 5))
 
 
+#Activity:
+
+#Create two functions:
+
+# One that multiplies two numbers
+# One that divides two numbers
+
+def multiply(value1, value2):
+    return value1 * value2
+print(multiply(3, 8))
+
+def divide(value1, value2):
+    return value1 / value2
+print(divide(6, 9))
+
+
+
 
