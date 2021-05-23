@@ -32,14 +32,13 @@
 # semi_perimter: (a + b + c)/2
 # area of triangle = (s*(s-a)*(s-b)*(s-c))-1/2
 
-
-def trianglearea(a, b, c):
-    sp = (a + b + c)/2
-    return (sp * (sp - a) * (sp - b) * (sp - c)) ** 0.5
+class Triangle():
+    def trianglearea(a, b, c):
+        sp = (a + b + c)/2
+        return (sp * (sp - a) * (sp - b) * (sp - c)) ** 0.5
 a = float(input("Enter first side of the triangle:"))
 b = float(input("Enter second side of the triangle:"))
 c = float(input("Enter third side of the triangle:"))
-
 print('Area of triangle is: {0:.2f}'. format(trianglearea(a, b, c)))
 
 
